@@ -4,14 +4,13 @@
 // Versión: 1.0
 // -----------------------------------------------------------------------------
 // Imput
-let numero=pront("Indica numero");
-var result
-const IVA = 21
+let precio =prompt("Introduce precio");
+const IVA = 1.21
+let result;
 // Proceso y calculo
-let numero%IVA=result
+function CalcIva(precioP){
+    result= precioP*IVA;
+}
+CalcIva(precio);
 // Output
-if(numero&IVA=result){
-    
-}
-
-}
+console.log(result);
