@@ -1,9 +1,9 @@
 let password= "hola";
 let pregunta ;
 
+let INTENTOS=0;
+
 do {
-    
-} while (condition); {
-    pregunta=prompt("Introduzca contraseña");
-    
-}
+    pregunta=prompt("Introduca contraseña")
+
+} while (password!=pregunta && INTENTOS<=3 INTENTOS**);
