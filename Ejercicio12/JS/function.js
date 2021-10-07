@@ -1,9 +1,12 @@
-let password= "hola";
-let pregunta ;
+let password = "hola";
+let pregunta = "";
 
-let INTENTOS=0;
+let intentos = 0;
 
 do {
-    pregunta=prompt("Introduca contraseña")
+    pregunta = prompt("Introduca contraseña");
+    console.log();
+    (intentos++);
+} while ((password != pregunta) && (intentos <= 3));
 
-} while (password!=pregunta && INTENTOS<=3 INTENTOS**);
+alert("enhorabuena")
