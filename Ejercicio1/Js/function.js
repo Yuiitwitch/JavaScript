@@ -4,18 +4,14 @@
 // Versión: 1.0
 // -----------------------------------------------------------------------------
 // Imput
-var ValorA= 17;
-var ValorB= 18;
-
-// Proceso y calculo
-ValorA>ValorB
-ValorB>ValorA
-
+let num1=prompt("Indicame un número");
+let num2=prompt("indicame un segundo número");
 // output
-if(ValorA >=18){
-    console.log("Eres mayor de edad");
+if(num1>num2){
+    console.log("El numero 1 es mayor");
 }
-
-if(ValorB <=17){
-    console.log("Eres menor de edad");
+if(num2>num1){
+    console.log("El número 2 es mayor");
+}else(num1==num2);{
+    console.log("Son iguales");
 }

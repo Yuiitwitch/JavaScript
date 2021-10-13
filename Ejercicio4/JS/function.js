@@ -12,4 +12,4 @@ let result;
 result= PI * R2**2;
 
 //output
-console.log("eL RESULTADO ES "+ result);
+console.log("EL RESULTADO ES "+ result);

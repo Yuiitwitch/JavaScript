@@ -8,9 +8,9 @@ let precio =prompt("Introduce precio");
 const IVA = 1.21
 let result;
 // Proceso y calculo
-function CalcIva(precioP){
+function calcIva(precioP){
     result= precioP*IVA;
 }
-CalcIva(precio);
+calcIva(precio);
 // Output
 console.log(result);
